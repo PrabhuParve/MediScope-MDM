@@ -1,0 +1,6 @@
+metric,value
+original_rows,101766
+original_columns,50
+exact_duplicate_rows_removed,0
+clean_rows,101766
+unique_patients,71518

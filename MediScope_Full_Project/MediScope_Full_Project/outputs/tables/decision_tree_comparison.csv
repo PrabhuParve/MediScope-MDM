@@ -1,0 +1,4 @@
+algorithm,accuracy,test_encounters
+ID3_information_gain,0.5473402475744397,2989
+C4.5_gain_ratio,0.539310806289729,2989
+CART_gini,0.550351288056206,2989

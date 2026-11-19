@@ -1,0 +1,301 @@
+itemset,support
+rosiglitazone=No,0.9365
+pioglitazone=No,0.9285
+glyburide=No,0.8935
+glipizide=No,0.8785
+pioglitazone=No | rosiglitazone=No,0.8653333333333333
+glyburide=No | rosiglitazone=No,0.8408333333333333
+glyburide=No | pioglitazone=No,0.831
+glipizide=No | rosiglitazone=No,0.8263333333333334
+glipizide=No | pioglitazone=No,0.8196666666666667
+metformin=No,0.7981666666666667
+glyburide=No | pioglitazone=No | rosiglitazone=No,0.7786666666666666
+glipizide=No | glyburide=No,0.7748333333333334
+glipizide=No | pioglitazone=No | rosiglitazone=No,0.7678333333333334
+diabetesMed=Yes,0.7671666666666667
+metformin=No | rosiglitazone=No,0.7578333333333334
+metformin=No | pioglitazone=No,0.7483333333333333
+glipizide=No | glyburide=No | rosiglitazone=No,0.733
+glyburide=No | metformin=No,0.7306666666666667
+glipizide=No | glyburide=No | pioglitazone=No,0.7248333333333333
+glipizide=No | metformin=No,0.7138333333333333
+metformin=No | pioglitazone=No | rosiglitazone=No,0.7083333333333334
+diabetesMed=Yes | rosiglitazone=No,0.7036666666666667
+glyburide=No | metformin=No | rosiglitazone=No,0.6966666666666667
+diabetesMed=Yes | pioglitazone=No,0.6956666666666667
+glyburide=No | metformin=No | pioglitazone=No,0.6848333333333333
+glipizide=No | metformin=No | rosiglitazone=No,0.6803333333333333
+glipizide=No | metformin=No | pioglitazone=No,0.6728333333333333
+diabetesMed=Yes | glyburide=No,0.6606666666666666
+glipizide=No | glyburide=No | metformin=No,0.648
+diabetesMed=Yes | glipizide=No,0.6456666666666667
+diabetesMed=Yes | pioglitazone=No | rosiglitazone=No,0.6325
+diabetesMed=Yes | glyburide=No | rosiglitazone=No,0.608
+diabetesMed=Yes | glyburide=No | pioglitazone=No,0.5981666666666666
+diabetesMed=Yes | glipizide=No | rosiglitazone=No,0.5935
+diabetesMed=Yes | glipizide=No | pioglitazone=No,0.5868333333333333
+diabetesMed=Yes | metformin=No,0.5653333333333334
+diabetesMed=Yes | glipizide=No | glyburide=No,0.542
+diabetesMed=Yes | metformin=No | rosiglitazone=No,0.525
+diabetesMed=Yes | metformin=No | pioglitazone=No,0.5155
+diabetesMed=Yes | glyburide=No | metformin=No,0.49783333333333335
+diabetesMed=Yes | glipizide=No | metformin=No,0.481
+insulin=No,0.4708333333333333
+insulin=No | rosiglitazone=No,0.44116666666666665
+insulin=No | pioglitazone=No,0.43666666666666665
+glipizide=No | insulin=No,0.4095
+glyburide=No | insulin=No,0.4075
+insulin=No | pioglitazone=No | rosiglitazone=No,0.4071666666666667
+glipizide=No | insulin=No | rosiglitazone=No,0.38466666666666666
+glyburide=No | insulin=No | rosiglitazone=No,0.384
+glipizide=No | insulin=No | pioglitazone=No,0.38133333333333336
+primary_diag_group=4,0.3805
+glyburide=No | insulin=No | pioglitazone=No,0.379
+insulin=No | metformin=No,0.36766666666666664
+primary_diag_group=4 | rosiglitazone=No,0.35333333333333333
+pioglitazone=No | primary_diag_group=4,0.3505
+insulin=No | metformin=No | rosiglitazone=No,0.34933333333333333
+glipizide=No | glyburide=No | insulin=No,0.3471666666666667
+insulin=No | metformin=No | pioglitazone=No,0.344
+glyburide=No | primary_diag_group=4,0.3323333333333333
+glyburide=No | insulin=No | metformin=No,0.32666666666666666
+glipizide=No | primary_diag_group=4,0.3248333333333333
+glipizide=No | insulin=No | metformin=No,0.32416666666666666
+pioglitazone=No | primary_diag_group=4 | rosiglitazone=No,0.32366666666666666
+glyburide=No | primary_diag_group=4 | rosiglitazone=No,0.31066666666666665
+glyburide=No | pioglitazone=No | primary_diag_group=4,0.307
+metformin=No | primary_diag_group=4,0.306
+insulin=Steady,0.30433333333333334
+diabetesMed=Yes | insulin=Steady,0.30433333333333334
+glipizide=No | primary_diag_group=4 | rosiglitazone=No,0.30283333333333334
+glipizide=No | pioglitazone=No | primary_diag_group=4,0.3005
+diabetesMed=Yes | primary_diag_group=4,0.2965
+metformin=No | primary_diag_group=4 | rosiglitazone=No,0.28783333333333333
+diabetesMed=Yes | insulin=Steady | rosiglitazone=No,0.2833333333333333
+insulin=Steady | rosiglitazone=No,0.2833333333333333
+metformin=No | pioglitazone=No | primary_diag_group=4,0.2833333333333333
+diabetesMed=Yes | insulin=Steady | pioglitazone=No,0.2818333333333333
+insulin=Steady | pioglitazone=No,0.2818333333333333
+glipizide=No | glyburide=No | primary_diag_group=4,0.278
+glyburide=No | metformin=No | primary_diag_group=4,0.2745
+diabetesMed=Yes | glyburide=No | insulin=Steady,0.27416666666666667
+glyburide=No | insulin=Steady,0.27416666666666667
+diabetesMed=Yes | primary_diag_group=4 | rosiglitazone=No,0.2693333333333333
+diabetesMed=Yes | pioglitazone=No | primary_diag_group=4,0.2665
+glipizide=No | metformin=No | primary_diag_group=4,0.2643333333333333
+glipizide=No | insulin=Steady,0.264
+diabetesMed=Yes | glipizide=No | insulin=Steady,0.264
+insulin=Steady | pioglitazone=No | rosiglitazone=No,0.261
+glyburide=No | insulin=Steady | rosiglitazone=No,0.256
+glyburide=No | insulin=Steady | pioglitazone=No,0.2535
+diabetesMed=Yes | glyburide=No | primary_diag_group=4,0.24833333333333332
+glipizide=No | insulin=Steady | rosiglitazone=No,0.24766666666666667
+glipizide=No | insulin=Steady | pioglitazone=No,0.24616666666666667
+insulin=Steady | metformin=No,0.24516666666666667
+diabetesMed=Yes | insulin=Steady | metformin=No,0.24516666666666667
+diabetesMed=Yes | glipizide=No | primary_diag_group=4,0.24083333333333334
+diabetesMed=Yes | insulin=No,0.238
+glipizide=No | glyburide=No | insulin=Steady,0.235
+diabetesMed=No | metformin=No | pioglitazone=No,0.23283333333333334
+diabetesMed=No,0.23283333333333334
+diabetesMed=No | pioglitazone=No,0.23283333333333334
+diabetesMed=No | glyburide=No,0.23283333333333334
+diabetesMed=No | rosiglitazone=No,0.23283333333333334
+diabetesMed=No | metformin=No,0.23283333333333334
+diabetesMed=No | glipizide=No,0.23283333333333334
+diabetesMed=No | glyburide=No | metformin=No,0.23283333333333334
+diabetesMed=No | glyburide=No | pioglitazone=No,0.23283333333333334
+diabetesMed=No | insulin=No,0.23283333333333334
+diabetesMed=No | insulin=No | rosiglitazone=No,0.23283333333333334
+diabetesMed=No | glipizide=No | glyburide=No,0.23283333333333334
+diabetesMed=No | glyburide=No | insulin=No,0.23283333333333334
+diabetesMed=No | glipizide=No | rosiglitazone=No,0.23283333333333334
+diabetesMed=No | pioglitazone=No | rosiglitazone=No,0.23283333333333334
+diabetesMed=No | insulin=No | metformin=No,0.23283333333333334
+diabetesMed=No | insulin=No | pioglitazone=No,0.23283333333333334
+diabetesMed=No | metformin=No | rosiglitazone=No,0.23283333333333334
+diabetesMed=No | glipizide=No | insulin=No,0.23283333333333334
+diabetesMed=No | glipizide=No | metformin=No,0.23283333333333334
+diabetesMed=No | glipizide=No | pioglitazone=No,0.23283333333333334
+diabetesMed=No | glyburide=No | rosiglitazone=No,0.23283333333333334
+insulin=Steady | metformin=No | rosiglitazone=No,0.232
+insulin=Steady | metformin=No | pioglitazone=No,0.2285
+glyburide=No | insulin=Steady | metformin=No,0.22683333333333333
+diabetesMed=Yes | metformin=No | primary_diag_group=4,0.222
+glipizide=No | insulin=Steady | metformin=No,0.21666666666666667
+diabetesMed=Yes | insulin=No | rosiglitazone=No,0.20833333333333334
+diabetesMed=Yes | insulin=No | pioglitazone=No,0.20383333333333334
+metformin=Steady,0.186
+diabetesMed=Yes | metformin=Steady,0.186
+insulin=No | primary_diag_group=4,0.18383333333333332
+diabetesMed=Yes | glipizide=No | insulin=No,0.17666666666666667
+diabetesMed=Yes | glyburide=No | insulin=No,0.17466666666666666
+insulin=No | primary_diag_group=4 | rosiglitazone=No,0.17066666666666666
+insulin=No | pioglitazone=No | primary_diag_group=4,0.16866666666666666
+diabetesMed=Yes | metformin=Steady | pioglitazone=No,0.1665
+metformin=Steady | pioglitazone=No,0.1665
+diabetesMed=Yes | metformin=Steady | rosiglitazone=No,0.16533333333333333
+metformin=Steady | rosiglitazone=No,0.16533333333333333
+primary_diag_group=5,0.16083333333333333
+glipizide=No | insulin=No | primary_diag_group=4,0.1575
+glyburide=No | insulin=No | primary_diag_group=4,0.1545
+pioglitazone=No | primary_diag_group=5,0.15333333333333332
+primary_diag_group=5 | rosiglitazone=No,0.15316666666666667
+diabetesMed=Yes | glipizide=No | metformin=Steady,0.1525
+glipizide=No | metformin=Steady,0.1525
+glyburide=No | metformin=Steady,0.15133333333333332
+diabetesMed=Yes | glyburide=No | metformin=Steady,0.15133333333333332
+glyburide=No | primary_diag_group=5,0.14866666666666667
+insulin=No | metformin=No | primary_diag_group=4,0.1485
+metformin=Steady | pioglitazone=No | rosiglitazone=No,0.14583333333333334
+pioglitazone=No | primary_diag_group=5 | rosiglitazone=No,0.14566666666666667
+glipizide=No | primary_diag_group=5,0.14533333333333334
+glyburide=No | primary_diag_group=5 | rosiglitazone=No,0.14183333333333334
+glyburide=No | pioglitazone=No | primary_diag_group=5,0.14183333333333334
+primary_diag_group=2,0.14166666666666666
+glipizide=No | pioglitazone=No | primary_diag_group=5,0.13933333333333334
+glipizide=No | primary_diag_group=5 | rosiglitazone=No,0.13883333333333334
+glipizide=No | metformin=Steady | pioglitazone=No,0.13633333333333333
+glyburide=No | metformin=Steady | pioglitazone=No,0.136
+metformin=No | primary_diag_group=5,0.13566666666666666
+glipizide=No | metformin=Steady | rosiglitazone=No,0.1355
+diabetesMed=Yes | insulin=No | metformin=No,0.13483333333333333
+glyburide=No | metformin=Steady | rosiglitazone=No,0.13466666666666666
+pioglitazone=No | primary_diag_group=2,0.134
+glipizide=No | glyburide=No | primary_diag_group=5,0.1335
+primary_diag_group=2 | rosiglitazone=No,0.13333333333333333
+metformin=No | primary_diag_group=5 | rosiglitazone=No,0.131
+glyburide=No | primary_diag_group=2,0.13033333333333333
+metformin=No | pioglitazone=No | primary_diag_group=5,0.13
+glipizide=No | primary_diag_group=2,0.12766666666666668
+glyburide=No | metformin=No | primary_diag_group=5,0.12733333333333333
+primary_diag_group=7,0.12633333333333333
+pioglitazone=No | primary_diag_group=2 | rosiglitazone=No,0.12566666666666668
+glipizide=No | metformin=No | primary_diag_group=5,0.125
+glyburide=No | pioglitazone=No | primary_diag_group=2,0.1235
+glyburide=No | primary_diag_group=2 | rosiglitazone=No,0.1235
+glipizide=No | pioglitazone=No | primary_diag_group=2,0.12066666666666667
+glipizide=No | primary_diag_group=2 | rosiglitazone=No,0.12066666666666667
+diabetesMed=Yes | primary_diag_group=5,0.11916666666666667
+glipizide=No | glyburide=No | metformin=Steady,0.11883333333333333
+primary_diag_group=7 | rosiglitazone=No,0.11733333333333333
+glipizide=No | glyburide=No | primary_diag_group=2,0.11716666666666667
+metformin=No | primary_diag_group=2,0.11516666666666667
+glipizide=No | primary_diag_group=7,0.1135
+diabetesMed=Yes | insulin=Steady | primary_diag_group=4,0.1135
+insulin=Steady | primary_diag_group=4,0.1135
+diabetesMed=Yes | insulin=Up,0.11333333333333333
+insulin=Up,0.11333333333333333
+pioglitazone=No | primary_diag_group=7,0.113
+diabetesMed=Yes | primary_diag_group=2,0.11216666666666666
+diabetesMed=Yes | pioglitazone=No | primary_diag_group=5,0.11166666666666666
+insulin=Down,0.1115
+diabetesMed=Yes | insulin=Down,0.1115
+diabetesMed=Yes | primary_diag_group=5 | rosiglitazone=No,0.1115
+metformin=No | pioglitazone=No | primary_diag_group=2,0.1105
+metformin=No | primary_diag_group=2 | rosiglitazone=No,0.10966666666666666
+glyburide=No | metformin=No | primary_diag_group=2,0.10933333333333334
+glyburide=No | primary_diag_group=7,0.10883333333333334
+insulin=Up | rosiglitazone=No,0.1075
+diabetesMed=Yes | insulin=Up | rosiglitazone=No,0.1075
+diabetesMed=Yes | glyburide=No | primary_diag_group=5,0.107
+glipizide=No | metformin=No | primary_diag_group=2,0.10683333333333334
+diabetesMed=Yes | glyburide=No | insulin=Up,0.10666666666666667
+glyburide=No | insulin=Up,0.10666666666666667
+diabetesMed=Yes | insulin=Up | pioglitazone=No,0.10666666666666667
+insulin=Up | pioglitazone=No,0.10666666666666667
+diabetesMed=Yes | glipizide=Steady,0.10616666666666667
+glipizide=No | primary_diag_group=7 | rosiglitazone=No,0.10616666666666667
+glipizide=Steady,0.10616666666666667
+insulin=Steady | primary_diag_group=4 | rosiglitazone=No,0.10533333333333333
+glyburide=No | insulin=Down,0.10516666666666667
+diabetesMed=Yes | glyburide=No | insulin=Down,0.10516666666666667
+insulin=Steady | pioglitazone=No | primary_diag_group=4,0.10466666666666667
+diabetesMed=Yes | pioglitazone=No | primary_diag_group=2,0.1045
+insulin=Down | rosiglitazone=No,0.1045
+diabetesMed=Yes | insulin=Down | rosiglitazone=No,0.1045
+pioglitazone=No | primary_diag_group=7 | rosiglitazone=No,0.104
+diabetesMed=Yes | glipizide=Steady | glyburide=No,0.10383333333333333
+diabetesMed=Yes | primary_diag_group=2 | rosiglitazone=No,0.10383333333333333
+glipizide=Steady | glyburide=No,0.10383333333333333
+diabetesMed=Yes | glipizide=No | primary_diag_group=5,0.10366666666666667
+insulin=Down | pioglitazone=No,0.10333333333333333
+diabetesMed=Yes | insulin=Down | pioglitazone=No,0.10333333333333333
+diabetesMed=Yes | glipizide=No | insulin=Up,0.10283333333333333
+glipizide=No | insulin=Up,0.10283333333333333
+glipizide=No | insulin=Down,0.10216666666666667
+glipizide=No | pioglitazone=No | primary_diag_group=7,0.10216666666666667
+diabetesMed=Yes | glipizide=No | insulin=Down,0.10216666666666667
+glyburide=No | primary_diag_group=7 | rosiglitazone=No,0.10216666666666667
+glyburide=No | insulin=Up | rosiglitazone=No,0.10166666666666667
+glyburide=No | insulin=Steady | primary_diag_group=4,0.1015
+insulin=Up | pioglitazone=No | rosiglitazone=No,0.10083333333333333
+diabetesMed=Yes | glyburide=No | primary_diag_group=2,0.10083333333333333
+glyburide=No | insulin=Up | pioglitazone=No,0.10066666666666667
+diabetesMed=Yes | insulin=No | primary_diag_group=4,0.09983333333333333
+glyburide=No | insulin=Down | rosiglitazone=No,0.09916666666666667
+diabetesMed=Yes | glipizide=No | primary_diag_group=2,0.09816666666666667
+glipizide=No | insulin=Up | rosiglitazone=No,0.09783333333333333
+glyburide=No | insulin=Down | pioglitazone=No,0.09783333333333333
+diabetesMed=Yes | insulin=No | metformin=Steady,0.0975
+glipizide=No | insulin=Up | pioglitazone=No,0.0975
+insulin=No | metformin=Steady,0.0975
+glyburide=No | pioglitazone=No | primary_diag_group=7,0.097
+diabetesMed=Yes | glipizide=Steady | rosiglitazone=No,0.097
+glipizide=Steady | rosiglitazone=No,0.097
+glipizide=No | glyburide=No | insulin=Up,0.0965
+diabetesMed=Yes | primary_diag_group=7,0.09633333333333334
+insulin=Down | pioglitazone=No | rosiglitazone=No,0.09633333333333334
+glipizide=No | glyburide=No | primary_diag_group=7,0.09616666666666666
+glipizide=No | glyburide=No | insulin=Down,0.09616666666666666
+glipizide=No | insulin=Down | rosiglitazone=No,0.09616666666666666
+diabetesMed=Yes | glipizide=Steady | pioglitazone=No,0.0955
+glipizide=Steady | pioglitazone=No,0.0955
+glipizide=Steady | glyburide=No | rosiglitazone=No,0.095
+glipizide=No | insulin=Down | pioglitazone=No,0.09466666666666666
+diabetesMed=Yes | metformin=No | primary_diag_group=5,0.094
+glipizide=Steady | glyburide=No | pioglitazone=No,0.09333333333333334
+diabetesMed=Yes | insulin=Up | metformin=No,0.09316666666666666
+insulin=Up | metformin=No,0.09316666666666666
+glipizide=No | insulin=Steady | primary_diag_group=4,0.09233333333333334
+diabetesMed=Yes | insulin=Down | metformin=No,0.09216666666666666
+metformin=No | primary_diag_group=7,0.09216666666666666
+insulin=Down | metformin=No,0.09216666666666666
+insulin=Steady | metformin=No | primary_diag_group=4,0.09116666666666666
+diabetesMed=Yes | glyburide=Steady,0.09083333333333334
+glyburide=Steady,0.09083333333333334
+insulin=Up | metformin=No | rosiglitazone=No,0.0895
+glyburide=No | insulin=Up | metformin=No,0.08883333333333333
+insulin=Up | metformin=No | pioglitazone=No,0.0885
+glyburide=No | insulin=Down | metformin=No,0.08833333333333333
+glipizide=No | glyburide=Steady,0.08816666666666667
+diabetesMed=Yes | glipizide=No | glyburide=Steady,0.08816666666666667
+insulin=No | metformin=Steady | pioglitazone=No,0.08783333333333333
+diabetesMed=Yes | primary_diag_group=7 | rosiglitazone=No,0.08733333333333333
+insulin=Down | metformin=No | pioglitazone=No,0.08733333333333333
+insulin=Down | metformin=No | rosiglitazone=No,0.087
+insulin=No | metformin=Steady | rosiglitazone=No,0.08683333333333333
+glipizide=No | insulin=Up | metformin=No,0.08666666666666667
+metformin=No | primary_diag_group=7 | rosiglitazone=No,0.08666666666666667
+glipizide=Steady | pioglitazone=No | rosiglitazone=No,0.08633333333333333
+glipizide=No | insulin=Down | metformin=No,0.08633333333333333
+diabetesMed=Yes | metformin=No | primary_diag_group=2,0.08566666666666667
+diabetesMed=No | metformin=No | primary_diag_group=4,0.084
+diabetesMed=No | insulin=No | primary_diag_group=4,0.084
+diabetesMed=No | primary_diag_group=4 | rosiglitazone=No,0.084
+diabetesMed=No | glyburide=No | primary_diag_group=4,0.084
+diabetesMed=No | glipizide=No | primary_diag_group=4,0.084
+diabetesMed=No | pioglitazone=No | primary_diag_group=4,0.084
+diabetesMed=No | primary_diag_group=4,0.084
+glipizide=No | metformin=No | primary_diag_group=7,0.08383333333333333
+metformin=No | pioglitazone=No | primary_diag_group=7,0.08366666666666667
+glyburide=Steady | pioglitazone=No,0.0835
+diabetesMed=Yes | glyburide=Steady | pioglitazone=No,0.0835
+diabetesMed=Yes | glipizide=No | primary_diag_group=7,0.0835
+diabetesMed=Yes | pioglitazone=No | primary_diag_group=7,0.083
+A1Cresult=>8,0.0825
+diabetesMed=Yes | glyburide=Steady | rosiglitazone=No,0.08166666666666667
+glyburide=Steady | rosiglitazone=No,0.08166666666666667
+glipizide=No | insulin=No | metformin=Steady,0.08083333333333333
+glipizide=No | glyburide=Steady | pioglitazone=No,0.08083333333333333
+glyburide=No | metformin=No | primary_diag_group=7,0.0805

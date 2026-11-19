@@ -1,0 +1,16 @@
+itemset,support
+Medication:AnyDiabetesMedication,1.0
+Medication:Biguanide,1.0
+Medication:Insulin,1.0
+Medication:Sulfonylurea,1.0
+Medication:Thiazolidinedione,1.0
+Medication:Biguanide | Medication:Insulin,1.0
+Medication:Biguanide | Medication:Thiazolidinedione,1.0
+Medication:Insulin | Medication:Sulfonylurea,1.0
+Medication:AnyDiabetesMedication | Medication:Sulfonylurea,1.0
+Medication:Sulfonylurea | Medication:Thiazolidinedione,1.0
+Medication:AnyDiabetesMedication | Medication:Biguanide,1.0
+Medication:AnyDiabetesMedication | Medication:Thiazolidinedione,1.0
+Medication:Insulin | Medication:Thiazolidinedione,1.0
+Medication:Biguanide | Medication:Sulfonylurea,1.0
+Medication:AnyDiabetesMedication | Medication:Insulin,1.0

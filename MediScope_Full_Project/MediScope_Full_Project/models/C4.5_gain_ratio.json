@@ -1,0 +1,920 @@
+{
+  "feature": "discharge_disposition_id",
+  "children": {
+    "1": {
+      "feature": "admission_source_id",
+      "children": {
+        "6": {
+          "feature": "admission_type_id",
+          "children": {
+            "1": {
+              "feature": "age",
+              "children": {
+                "[70-80)": {
+                  "leaf": 2,
+                  "n": 39
+                },
+                "[80-90)": {
+                  "leaf": 2,
+                  "n": 18
+                },
+                "[90-100)": {
+                  "leaf": 2,
+                  "n": 3
+                },
+                "[40-50)": {
+                  "leaf": 2,
+                  "n": 18
+                },
+                "[60-70)": {
+                  "leaf": 2,
+                  "n": 31
+                },
+                "[50-60)": {
+                  "leaf": 2,
+                  "n": 22
+                },
+                "[30-40)": {
+                  "leaf": 2,
+                  "n": 7
+                },
+                "[20-30)": {
+                  "leaf": 2,
+                  "n": 3
+                },
+                "[10-20)": {
+                  "leaf": 2,
+                  "n": 1
+                }
+              },
+              "default": 2,
+              "score": 0.032927027267975896,
+              "n": 142
+            },
+            "3": {
+              "leaf": 2,
+              "n": 2
+            },
+            "2": {
+              "leaf": 0,
+              "n": 1
+            }
+          },
+          "default": 2,
+          "score": 0.1959186982857811,
+          "n": 145
+        },
+        "1": {
+          "feature": "max_glu_serum",
+          "children": {
+            "Unknown": {
+              "feature": "race",
+              "children": {
+                "Caucasian": {
+                  "leaf": 2,
+                  "n": 1214
+                },
+                "Unknown": {
+                  "leaf": 2,
+                  "n": 53
+                },
+                "AfricanAmerican": {
+                  "leaf": 2,
+                  "n": 277
+                },
+                "Hispanic": {
+                  "leaf": 2,
+                  "n": 26
+                },
+                "Other": {
+                  "leaf": 2,
+                  "n": 12
+                },
+                "Asian": {
+                  "leaf": 2,
+                  "n": 10
+                }
+              },
+              "default": 2,
+              "score": 0.010064563826830701,
+              "n": 1592
+            },
+            "Norm": {
+              "leaf": 1,
+              "n": 11
+            },
+            ">300": {
+              "leaf": 2,
+              "n": 1
+            },
+            ">200": {
+              "leaf": 2,
+              "n": 2
+            }
+          },
+          "default": 2,
+          "score": 0.038550716950815286,
+          "n": 1606
+        },
+        "7": {
+          "feature": "max_glu_serum",
+          "children": {
+            "Unknown": {
+              "feature": "race",
+              "children": {
+                "AfricanAmerican": {
+                  "leaf": 2,
+                  "n": 697
+                },
+                "Caucasian": {
+                  "leaf": 2,
+                  "n": 2004
+                },
+                "Hispanic": {
+                  "leaf": 2,
+                  "n": 79
+                },
+                "Asian": {
+                  "leaf": 2,
+                  "n": 25
+                },
+                "Unknown": {
+                  "leaf": 2,
+                  "n": 36
+                },
+                "Other": {
+                  "leaf": 2,
+                  "n": 57
+                }
+              },
+              "default": 2,
+              "score": 0.006989324947803003,
+              "n": 2898
+            },
+            ">200": {
+              "leaf": 1,
+              "n": 19
+            },
+            ">300": {
+              "leaf": 1,
+              "n": 38
+            },
+            "Norm": {
+              "leaf": 2,
+              "n": 29
+            }
+          },
+          "default": 2,
+          "score": 0.022467134597736225,
+          "n": 2984
+        },
+        "9": {
+          "leaf": 2,
+          "n": 4
+        },
+        "4": {
+          "feature": "diabetesMed",
+          "children": {
+            "No": {
+              "leaf": 2,
+              "n": 29
+            },
+            "Yes": {
+              "feature": "age",
+              "children": {
+                "[0-10)": {
+                  "leaf": 2,
+                  "n": 2
+                },
+                "[40-50)": {
+                  "leaf": 2,
+                  "n": 15
+                },
+                "[70-80)": {
+                  "leaf": 2,
+                  "n": 15
+                },
+                "[80-90)": {
+                  "leaf": 1,
+                  "n": 12
+                },
+                "[60-70)": {
+                  "leaf": 2,
+                  "n": 29
+                },
+                "[50-60)": {
+                  "leaf": 2,
+                  "n": 18
+                },
+                "[10-20)": {
+                  "leaf": 2,
+                  "n": 2
+                },
+                "[90-100)": {
+                  "leaf": 1,
+                  "n": 2
+                },
+                "[20-30)": {
+                  "leaf": 2,
+                  "n": 3
+                },
+                "[30-40)": {
+                  "leaf": 2,
+                  "n": 4
+                }
+              },
+              "default": 2,
+              "score": 0.06197391272682545,
+              "n": 102
+            }
+          },
+          "default": 2,
+          "score": 0.04381654475502542,
+          "n": 131
+        },
+        "20": {
+          "leaf": 1,
+          "n": 14
+        },
+        "17": {
+          "feature": "A1Cresult",
+          "children": {
+            ">8": {
+              "leaf": 1,
+              "n": 16
+            },
+            "Unknown": {
+              "feature": "race",
+              "children": {
+                "Caucasian": {
+                  "leaf": 2,
+                  "n": 218
+                },
+                "AfricanAmerican": {
+                  "leaf": 2,
+                  "n": 21
+                },
+                "Hispanic": {
+                  "leaf": 2,
+                  "n": 5
+                },
+                "Other": {
+                  "leaf": 2,
+                  "n": 3
+                },
+                "Unknown": {
+                  "leaf": 1,
+                  "n": 1
+                }
+              },
+              "default": 2,
+              "score": 0.02834477011701879,
+              "n": 248
+            },
+            ">7": {
+              "leaf": 2,
+              "n": 7
+            },
+            "Norm": {
+              "leaf": 1,
+              "n": 3
+            }
+          },
+          "default": 2,
+          "score": 0.04441616878089826,
+          "n": 274
+        },
+        "2": {
+          "leaf": 2,
+          "n": 53
+        },
+        "5": {
+          "leaf": 1,
+          "n": 3
+        },
+        "3": {
+          "leaf": 2,
+          "n": 4
+        },
+        "10": {
+          "leaf": 2,
+          "n": 2
+        }
+      },
+      "default": 2,
+      "score": 0.010472940872016157,
+      "n": 5220
+    },
+    "6": {
+      "feature": "admission_source_id",
+      "children": {
+        "1": {
+          "feature": "max_glu_serum",
+          "children": {
+            "Unknown": {
+              "feature": "race",
+              "children": {
+                "Caucasian": {
+                  "leaf": 2,
+                  "n": 298
+                },
+                "AfricanAmerican": {
+                  "leaf": 2,
+                  "n": 37
+                },
+                "Hispanic": {
+                  "leaf": 1,
+                  "n": 6
+                },
+                "Unknown": {
+                  "leaf": 2,
+                  "n": 4
+                },
+                "Other": {
+                  "leaf": 2,
+                  "n": 5
+                },
+                "Asian": {
+                  "leaf": 2,
+                  "n": 3
+                }
+              },
+              "default": 2,
+              "score": 0.038169142124919626,
+              "n": 353
+            },
+            "Norm": {
+              "leaf": 2,
+              "n": 2
+            }
+          },
+          "default": 2,
+          "score": 0.1050727064112075,
+          "n": 355
+        },
+        "7": {
+          "feature": "max_glu_serum",
+          "children": {
+            "Unknown": {
+              "feature": "admission_type_id",
+              "children": {
+                "1": {
+                  "leaf": 1,
+                  "n": 535
+                },
+                "3": {
+                  "leaf": 2,
+                  "n": 4
+                },
+                "2": {
+                  "leaf": 1,
+                  "n": 67
+                },
+                "8": {
+                  "leaf": 0,
+                  "n": 2
+                },
+                "6": {
+                  "leaf": 2,
+                  "n": 3
+                },
+                "5": {
+                  "leaf": 2,
+                  "n": 2
+                },
+                "7": {
+                  "leaf": 2,
+                  "n": 1
+                }
+              },
+              "default": 1,
+              "score": 0.026709346487855057,
+              "n": 614
+            },
+            ">300": {
+              "leaf": 1,
+              "n": 6
+            },
+            "Norm": {
+              "leaf": 1,
+              "n": 3
+            }
+          },
+          "default": 1,
+          "score": 0.07041269850943636,
+          "n": 623
+        },
+        "4": {
+          "leaf": 2,
+          "n": 56
+        },
+        "17": {
+          "feature": "A1Cresult",
+          "children": {
+            "Unknown": {
+              "feature": "diabetesMed",
+              "children": {
+                "Yes": {
+                  "leaf": 1,
+                  "n": 74
+                },
+                "No": {
+                  "leaf": 2,
+                  "n": 18
+                }
+              },
+              "default": 2,
+              "score": 0.06862709054014775,
+              "n": 92
+            },
+            ">7": {
+              "leaf": 2,
+              "n": 4
+            },
+            ">8": {
+              "leaf": 0,
+              "n": 2
+            }
+          },
+          "default": 2,
+          "score": 0.09685705250270941,
+          "n": 98
+        },
+        "6": {
+          "leaf": 2,
+          "n": 8
+        },
+        "3": {
+          "leaf": 0,
+          "n": 5
+        },
+        "5": {
+          "leaf": 1,
+          "n": 5
+        },
+        "2": {
+          "leaf": 2,
+          "n": 13
+        },
+        "9": {
+          "leaf": 1,
+          "n": 1
+        }
+      },
+      "default": 2,
+      "score": 0.012949305557243516,
+      "n": 1164
+    },
+    "3": {
+      "feature": "race",
+      "children": {
+        "Caucasian": {
+          "feature": "max_glu_serum",
+          "children": {
+            "Unknown": {
+              "feature": "diabetesMed",
+              "children": {
+                "Yes": {
+                  "leaf": 2,
+                  "n": 780
+                },
+                "No": {
+                  "leaf": 2,
+                  "n": 191
+                }
+              },
+              "default": 2,
+              "score": 0.01127746263307701,
+              "n": 971
+            },
+            "Norm": {
+              "leaf": 2,
+              "n": 63
+            },
+            ">200": {
+              "leaf": 1,
+              "n": 28
+            },
+            ">300": {
+              "leaf": 2,
+              "n": 27
+            }
+          },
+          "default": 2,
+          "score": 0.014981154030501853,
+          "n": 1089
+        },
+        "Hispanic": {
+          "leaf": 2,
+          "n": 13
+        },
+        "AfricanAmerican": {
+          "feature": "admission_type_id",
+          "children": {
+            "1": {
+              "feature": "metformin",
+              "children": {
+                "No": {
+                  "leaf": 2,
+                  "n": 101
+                },
+                "Steady": {
+                  "leaf": 2,
+                  "n": 6
+                },
+                "Down": {
+                  "leaf": 1,
+                  "n": 1
+                }
+              },
+              "default": 2,
+              "score": 0.1153841569613129,
+              "n": 108
+            },
+            "2": {
+              "leaf": 1,
+              "n": 18
+            },
+            "3": {
+              "leaf": 2,
+              "n": 18
+            },
+            "8": {
+              "leaf": 1,
+              "n": 1
+            },
+            "5": {
+              "leaf": 1,
+              "n": 7
+            },
+            "7": {
+              "leaf": 2,
+              "n": 1
+            },
+            "6": {
+              "leaf": 2,
+              "n": 2
+            }
+          },
+          "default": 2,
+          "score": 0.062021377634359214,
+          "n": 155
+        },
+        "Unknown": {
+          "leaf": 2,
+          "n": 34
+        },
+        "Other": {
+          "leaf": 2,
+          "n": 9
+        },
+        "Asian": {
+          "leaf": 0,
+          "n": 5
+        }
+      },
+      "default": 2,
+      "score": 0.01507612479423679,
+      "n": 1305
+    },
+    "22": {
+      "feature": "max_glu_serum",
+      "children": {
+        "Unknown": {
+          "feature": "race",
+          "children": {
+            "Caucasian": {
+              "feature": "admission_source_id",
+              "children": {
+                "7": {
+                  "leaf": 0,
+                  "n": 72
+                },
+                "1": {
+                  "leaf": 2,
+                  "n": 59
+                },
+                "2": {
+                  "leaf": 1,
+                  "n": 1
+                },
+                "17": {
+                  "leaf": 1,
+                  "n": 5
+                },
+                "4": {
+                  "leaf": 1,
+                  "n": 2
+                }
+              },
+              "default": 2,
+              "score": 0.054769117603442975,
+              "n": 139
+            },
+            "AfricanAmerican": {
+              "leaf": 2,
+              "n": 34
+            },
+            "Other": {
+              "leaf": 2,
+              "n": 3
+            },
+            "Asian": {
+              "leaf": 2,
+              "n": 2
+            },
+            "Hispanic": {
+              "leaf": 1,
+              "n": 1
+            },
+            "Unknown": {
+              "leaf": 1,
+              "n": 2
+            }
+          },
+          "default": 2,
+          "score": 0.05432178784900515,
+          "n": 181
+        },
+        "Norm": {
+          "leaf": 1,
+          "n": 2
+        },
+        ">300": {
+          "leaf": 2,
+          "n": 1
+        }
+      },
+      "default": 2,
+      "score": 0.08982077118587395,
+      "n": 184
+    },
+    "18": {
+      "feature": "insulin",
+      "children": {
+        "No": {
+          "feature": "race",
+          "children": {
+            "Caucasian": {
+              "feature": "age",
+              "children": {
+                "[90-100)": {
+                  "leaf": 2,
+                  "n": 2
+                },
+                "[80-90)": {
+                  "leaf": 2,
+                  "n": 29
+                },
+                "[70-80)": {
+                  "leaf": 2,
+                  "n": 63
+                },
+                "[40-50)": {
+                  "leaf": 2,
+                  "n": 14
+                },
+                "[30-40)": {
+                  "leaf": 2,
+                  "n": 5
+                },
+                "[60-70)": {
+                  "leaf": 2,
+                  "n": 39
+                },
+                "[50-60)": {
+                  "leaf": 2,
+                  "n": 21
+                },
+                "[10-20)": {
+                  "leaf": 2,
+                  "n": 1
+                }
+              },
+              "default": 2,
+              "score": 0.03216701658858139,
+              "n": 174
+            },
+            "AfricanAmerican": {
+              "leaf": 2,
+              "n": 71
+            },
+            "Hispanic": {
+              "leaf": 1,
+              "n": 8
+            },
+            "Other": {
+              "leaf": 2,
+              "n": 4
+            },
+            "Unknown": {
+              "leaf": 2,
+              "n": 1
+            }
+          },
+          "default": 2,
+          "score": 0.045043651614472824,
+          "n": 258
+        },
+        "Steady": {
+          "leaf": 2,
+          "n": 48
+        },
+        "Up": {
+          "leaf": 2,
+          "n": 11
+        },
+        "Down": {
+          "leaf": 2,
+          "n": 9
+        }
+      },
+      "default": 2,
+      "score": 0.03799896821148025,
+      "n": 326
+    },
+    "4": {
+      "feature": "max_glu_serum",
+      "children": {
+        "Unknown": {
+          "leaf": 2,
+          "n": 78
+        },
+        ">300": {
+          "leaf": 0,
+          "n": 1
+        },
+        ">200": {
+          "leaf": 1,
+          "n": 1
+        }
+      },
+      "default": 2,
+      "score": 0.29325608559662025,
+      "n": 80
+    },
+    "2": {
+      "feature": "max_glu_serum",
+      "children": {
+        "Unknown": {
+          "feature": "race",
+          "children": {
+            "Caucasian": {
+              "feature": "admission_source_id",
+              "children": {
+                "7": {
+                  "leaf": 2,
+                  "n": 88
+                },
+                "1": {
+                  "leaf": 2,
+                  "n": 39
+                },
+                "6": {
+                  "leaf": 2,
+                  "n": 3
+                },
+                "17": {
+                  "leaf": 1,
+                  "n": 3
+                },
+                "4": {
+                  "leaf": 0,
+                  "n": 4
+                }
+              },
+              "default": 2,
+              "score": 0.05798503063888567,
+              "n": 137
+            },
+            "Other": {
+              "leaf": 2,
+              "n": 5
+            },
+            "AfricanAmerican": {
+              "leaf": 2,
+              "n": 19
+            },
+            "Hispanic": {
+              "leaf": 1,
+              "n": 2
+            },
+            "Unknown": {
+              "leaf": 2,
+              "n": 4
+            },
+            "Asian": {
+              "leaf": 1,
+              "n": 2
+            }
+          },
+          "default": 2,
+          "score": 0.04598297568045515,
+          "n": 169
+        },
+        "Norm": {
+          "leaf": 1,
+          "n": 12
+        },
+        ">300": {
+          "leaf": 2,
+          "n": 5
+        },
+        ">200": {
+          "leaf": 1,
+          "n": 4
+        }
+      },
+      "default": 2,
+      "score": 0.05013286658354325,
+      "n": 190
+    },
+    "11": {
+      "leaf": 2,
+      "n": 157
+    },
+    "13": {
+      "leaf": 2,
+      "n": 29
+    },
+    "5": {
+      "feature": "race",
+      "children": {
+        "AfricanAmerican": {
+          "leaf": 2,
+          "n": 16
+        },
+        "Caucasian": {
+          "leaf": 2,
+          "n": 75
+        },
+        "Unknown": {
+          "leaf": 1,
+          "n": 6
+        },
+        "Hispanic": {
+          "leaf": 2,
+          "n": 3
+        },
+        "Asian": {
+          "leaf": 2,
+          "n": 1
+        }
+      },
+      "default": 2,
+      "score": 0.05546975926854693,
+      "n": 101
+    },
+    "24": {
+      "leaf": 2,
+      "n": 9
+    },
+    "7": {
+      "leaf": 1,
+      "n": 79
+    },
+    "14": {
+      "leaf": 2,
+      "n": 32
+    },
+    "25": {
+      "leaf": 2,
+      "n": 79
+    },
+    "23": {
+      "leaf": 2,
+      "n": 34
+    },
+    "15": {
+      "leaf": 0,
+      "n": 8
+    },
+    "8": {
+      "leaf": 2,
+      "n": 4
+    },
+    "28": {
+      "leaf": 2,
+      "n": 6
+    },
+    "27": {
+      "leaf": 2,
+      "n": 1
+    },
+    "16": {
+      "leaf": 2,
+      "n": 1
+    },
+    "17": {
+      "leaf": 1,
+      "n": 1
+    },
+    "10": {
+      "leaf": 1,
+      "n": 1
+    }
+  },
+  "default": 2,
+  "score": 0.015079191414920293,
+  "n": 9011
+}
